@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'AlmendraDisplay-Regular' ;
+    src: url('Almendra_Display/AlmendraDisplay-Regular.ttf') format('truetype');
+    }
+@font-face {
+    font-family: 'PatuaOne-Regular' ;
+    src: url('PatuaOne-Regular.ttf') format('truetype');
+    }
+
+@font-face {
+    font-family: 'ChelseaMarket-Regular';
+    src: url('ChelseaMarket-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FrederickatheGreat-Regular';
+    src: url('FrederickatheGreat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Allura-Regular';
+    src: url('Allura-Regular.ttf') format('truetype');
+}
+
+.Home {
+    font-family: 'PatuaOne-Regular';
+    color: #184246;
+    text-align: center;
+  }
+
+h1 { font-family: 'AlmendraDisplay-Regular'; 
+color: #184246;
+font-size: 80px;
+margin-bottom: 10px;
+}
+
+body { font-family: 'PatuaOne-Regular'; 
+    color: #184246;
+    }
+
+.menuImage {
+    border-radius: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 30%;
+    height: auto;
+    }
+
+a {
+text-decoration: underline;
+}
+
+a:visited {
+text-decoration: underline;
+color: #184246;
+}
+
+a:hover {
+background-color: #184246;
+color: #9cd4d7;
+}
+
+.menuDiv {
+    height: 50px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #184246;
+}
+
+.homeLinks {
+    color: #184246;
+    float: inline-start;
+    font-size: 20px;
+    margin: 10px;
+    }
+
