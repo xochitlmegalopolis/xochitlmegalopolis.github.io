@@ -12,7 +12,7 @@ import Entry1 from "./Entry1"
 export default function App() {
     return (
     <div>
-<BrowserRouter basename={process.env.PUBLIC_URL}>
+<BrowserRouter basename='glitchingtapestry.com'>
  <Switch>
     <Route exact path="/"><Home /><MenuImage /></Route>
     <Route path="/stories"><Home /><br /><center><Stories /></center></Route>
